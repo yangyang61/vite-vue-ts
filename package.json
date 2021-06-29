@@ -5,7 +5,8 @@
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
     "prepare": "husky install",
-    "lint": "eslint src --fix --ext .ts,.tsx "
+    "lint": "eslint src --fix --ext .ts,.tsx ",
+    "commit": "npx cz"
   },
   "lint-staged": {
     "*.{vue,js,ts}": "eslint --fix"
