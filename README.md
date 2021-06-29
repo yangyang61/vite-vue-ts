@@ -28,7 +28,7 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 
 ## 规范目录结构
 
-````
+```
 ├── publish/
 └── src/
     ├── assets/                    // 静态资源目录
@@ -48,4 +48,4 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 ├── vite.config.ts                 // Vite 配置文件
 └── package.json
 
-````
+```

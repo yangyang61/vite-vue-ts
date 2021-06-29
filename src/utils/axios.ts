@@ -1,4 +1,4 @@
-import Axios from "axios";
+import Axios from 'axios'
 
 const baseURL = 'http://api.githob.com'
 
@@ -35,10 +35,10 @@ axios.interceptors.response.use(
     if (error.response && error.response.data) {
       const code = error.response.status
       const msg = error.response.message
-      console.log(`Code: ${code}, Message: ${msg}`);
-      console.error(`[Axios Error]`, error.response);
-    }else {
-      console.error(`${error}`);
+      console.log(`Code: ${code}, Message: ${msg}`)
+      console.error(`[Axios Error]`, error.response)
+    } else {
+      console.error(`${error}`)
     }
     return Promise.reject(error)
   }

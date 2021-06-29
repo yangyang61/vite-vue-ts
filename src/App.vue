@@ -1,19 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <br />
-  <router-link to="/">home</router-link>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <router-link to="/vuex">vuex</router-link>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <router-link to="/axios">axios</router-link>
-  <router-view></router-view>
+  <div>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <br />
+    <router-link to="/">home</router-link>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <router-link to="/vuex">vuex</router-link>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <router-link to="/axios">axios</router-link>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'App',
+  name: 'App'
 })
 </script>
 

@@ -1,6 +1,4 @@
-import {
-  createStore
-} from "vuex";
+import { createStore } from 'vuex'
 
 const defaultState = {
   count: 0
@@ -13,11 +11,11 @@ export default createStore({
   },
   mutations: {
     increment(state: typeof defaultState) {
-      state.count++
+      state.count += 1
     }
   },
   actions: {
-    increment(context) {
+    increment(context: any) {
       context.commit('increment')
     }
   },
